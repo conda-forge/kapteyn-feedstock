@@ -1,6 +1,6 @@
 {% set name = "kapteyn" %}
-{% set version = "2.3" %}
-{% set sha256 = "87ab1809880ea6ede12bb41e675d76d66264f6e66619e1727c65e36254a4d9af" %}
+{% set version = "2.3.1" %}
+{% set sha256 = "dd9adcfff4893f3ee8ea4149749257dfde7a12fee9903497ae559d225e436aef" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
