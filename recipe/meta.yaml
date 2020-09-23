@@ -13,7 +13,7 @@ source:
 
 build:
   skip: true  # [win or py>36]
-  number: 1003
+  number: 1004
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
