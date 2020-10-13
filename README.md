@@ -5,9 +5,13 @@ Home: https://www.astro.rug.nl/software/kapteyn/
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kapteyn-feedstock/blob/master/LICENSE.txt)
 
 Summary: Astronomical package for spatial and spectral coordinates, WCS projections and transformation, and more...
+
+Development: https://github.com/kapteyn-astro/kapteyn
+
+Documentation: https://www.astro.rug.nl/software/kapteyn/
 
 The Kapteyn Package is a collection of Python modules and applications
 developed by members of the computer group (*) of the Kapteyn
