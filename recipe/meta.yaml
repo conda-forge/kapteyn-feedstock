@@ -13,8 +13,8 @@ source:
 
 build:
   skip: true  # [win or py>36]
-  number: 1004
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1005
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -22,6 +22,7 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
+    - pip
     - setuptools
     - cython
     - numpy
@@ -41,7 +42,7 @@ test:
 
 about:
   home: https://www.astro.rug.nl/software/kapteyn/
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: 'Astronomical package for spatial and spectral coordinates, WCS projections and transformation, and more...'
